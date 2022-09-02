@@ -33,3 +33,7 @@ git log
 ```bash
 git show "id-de-commtit"
 ```
+* Forzar una actualizacion 
+```bash 
+git push -f origin master
+```
