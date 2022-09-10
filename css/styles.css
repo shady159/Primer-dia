@@ -50,7 +50,7 @@ h1 {
     padding-right: 10px;
 }
 .div_form {
-    width: 400px;
+    width: 250px;
     margin: 20px auto;
 }
 .div_form > form > input { 
@@ -67,5 +67,5 @@ footer {
     text-align:center;
     color: rgb(255, 254, 254);
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-    
+  width: 730px;  
 }
