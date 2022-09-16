@@ -1,7 +1,9 @@
 :root{
     font-size: 20px;
 }
-
+header {
+    font-size:1.5rem
+}
 body { 
     font-family: 'Poppins', sans-serif;
 
@@ -16,6 +18,7 @@ h1 {
 }
 #div_temas {
     display:block;
+    font-size:1.5rem ;
 }
 .product_cell {
     border: 2px solid black;
