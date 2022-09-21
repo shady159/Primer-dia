@@ -1,0 +1,183 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #0d1a2d;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 100vh;
+    background-color: #0c192c
+}
+
+.big-card {
+    box-shadow: 0px 30px 30px 30px hsl(217, 54%, 11%);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 10%;
+    box-shadow: 0px 20px 20px 10px #0c1729;
+    width: 350px;
+    height: 100%;
+}
+
+.container-img {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.img-eth {
+    display: flex;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-radius: 8px;
+    display: block;
+}
+.container-eye {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: hsl(178, 100%, 50%, 50%);
+    border-radius: 10px;
+}
+.icon-eye {
+ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container-eye:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.subtitle {
+    display: flex;
+    margin-top: 10%;
+    margin-right: 35%;
+    color: hsl(0, 0%, 100%);
+
+}
+
+.subtitle :hover {
+    color: #11b6ba;
+    cursor: pointer;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    padding-right: 10%;
+    font-size: 1.2rem;
+    color: #6e86a2;
+    width: 380px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+    width: 340px;
+    padding: 15px;
+
+}
+
+.eth {
+    color: #11b6ba;
+    display: flex;
+    gap: 8px;
+}
+
+.eth-icon {
+    object-fit: contain;
+    width: 13px;
+    height: 24px;
+}
+
+.clock-icon {
+    object-fit: contain;
+    width: 20px;
+    height: 24px;
+}
+
+
+
+.time {
+    color: #6b85a6;
+    display: flex;
+    gap: 8px;
+    margin-right: 9px;
+}
+
+.container-icon-avatar {
+    display: flex;
+    justify-content: center;
+
+}
+
+.avatar {
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    gap: 5px;
+}
+
+.credits {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 8px;
+    width: 325px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #667e9a;
+
+}
+
+.credits>p {
+    margin-left: 15px;
+}
+
+.credits>p>a {
+    color: #f9ffff;
+    text-decoration: none;
+}
+
+.credits>p>a:hover {
+    color: #11b6ba;
+    cursor: pointer;
+}
