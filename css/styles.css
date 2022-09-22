@@ -36,7 +36,6 @@ h1 {
 }
 tr {
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 .product_cell {
