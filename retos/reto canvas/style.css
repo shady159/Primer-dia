@@ -9,15 +9,17 @@ body {
   color: white;
   background-color: black;
 }
-.moviemain {
-  background-color: black;
-  
+.moviemain { 
+  display: flex;
+flex-direction: column;
+
 }
 .moviecontainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
+  
+  }
 .moviemain >h1 { 
 color: rgb(0, 228, 217);
 text-align: center;
@@ -29,9 +31,9 @@ align-items: center;
   width: 300px;
   margin: 10px;
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 0 5px #ccc;
+  border-radius: 15px;
+  background-color: #141313;
+  border: 3px solid #FFFFFF;
 }
 
 .movies img {
@@ -47,12 +49,19 @@ align-items: center;
 .movies p {
   margin-bottom: 10px;
 }
-
-.search {
-  display: flex;
-  justify-content: center;
+h1 { 
   margin: 10px;
-  padding: 10px;
+  font-size: 3em;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.search {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .search input {
